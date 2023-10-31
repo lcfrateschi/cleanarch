@@ -15,7 +15,7 @@ public class FindCustomerByIdImpl implements FindCustomerById {
     @Autowired
     private CustomerRepository customerRepository;
 
-
+    @Autowired
     private CustomerEntityMapper customerEntityMapper;
 
     @Override

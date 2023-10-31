@@ -9,7 +9,7 @@ public class CustomerResponse {
 
     private String cpf;
 
-    private Boolean isValidCpf;
+    private Boolean validCpf;
 
     private AddressResponse address;
 }

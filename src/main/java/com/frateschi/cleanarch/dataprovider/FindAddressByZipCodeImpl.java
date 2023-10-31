@@ -12,7 +12,7 @@ public class FindAddressByZipCodeImpl implements FindAddressByZipCode {
     @Autowired
     private FindAddressByZipCodeClient findAddressByZipCodeClient;
 
-
+    @Autowired
     private AddressResponseMapper addressResponseMapper;
 
     @Override

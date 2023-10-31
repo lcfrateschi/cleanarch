@@ -13,7 +13,7 @@ public class ReceiveValidatedCpfConsumer {
     @Autowired
     UpdateCustomerUseCase updateCustomerUseCase;
 
-
+    @Autowired
     private CustomerMessageMapper customerMessageMapper;
 
     @KafkaListener(topics = "tp-cpf-validated", groupId = "frateschi")

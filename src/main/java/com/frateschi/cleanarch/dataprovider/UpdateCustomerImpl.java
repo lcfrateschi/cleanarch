@@ -13,7 +13,7 @@ public class UpdateCustomerImpl implements UpdateCustomer {
     @Autowired
     private CustomerRepository customerRepository;
 
-
+    @Autowired
     private CustomerEntityMapper customerEntityMapper;
 
     @Override

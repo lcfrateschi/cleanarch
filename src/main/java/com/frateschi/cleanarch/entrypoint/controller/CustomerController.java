@@ -20,7 +20,7 @@ public class CustomerController {
     @Autowired
     private InsertCustomerUseCase insertCustomerUseCase;
 
-
+    @Autowired
     private CustomerMapper customerMapper;
 
     @Autowired

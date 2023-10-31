@@ -13,7 +13,7 @@ public class InsertCustomerImpl implements InsertCustomer {
     @Autowired
     private CustomerRepository customerRepository;
 
-
+    @Autowired
     private CustomerEntityMapper customerEntityMapper;
 
     @Override
